@@ -1,9 +1,9 @@
 const mongoose = require("mongoose")
- const validator = require("validator")
-mongoose.connect( process.env.MONGODB_URL),{
+//  const validator = require("validator")
+mongoose.connect( process.env.MONGODB_URL,{
     useNewUrlParser:true,
     useCreateIndex:true
-}
+})
 // const User = mongoose.model("User",{
 //     name:{
 //         type:"String",
