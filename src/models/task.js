@@ -1,9 +1,9 @@
 const mongoose = require("mongoose")
-const validator= require("validator")
+// const validator= require("validator")
 const  taskSchema =  new mongoose.Schema(
   {
     description:{
-        type:"String",
+        type:String,
          required:true,
          trim: true
     },
